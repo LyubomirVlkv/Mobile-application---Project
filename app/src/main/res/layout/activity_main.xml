@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_welcome"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="36dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/text_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_instructions"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_height"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbackground"
+            android:hint="@string/edit_height"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:inputType="numberDecimal" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editbackground"
+        android:hint="@string/edit_weight"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/shresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_calculate"
+            android:text="@string/get_bmi"
+            ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_graph"
+        android:text="@string/show_graph"
+        ></Button>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SimpleList"
+            ></ListView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
